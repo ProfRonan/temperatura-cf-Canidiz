@@ -21,7 +21,7 @@ class Test(unittest.TestCase):
             assert mock_input.call_count == 1
             temperatura = temp_c * 9 / 5 + 32
             mock_print.assert_called_with(
-                f'A temperatura em Fahrenheit é {temperatura}')
+                f'A temperatura em Fahrenheit é {temperatura}.')
 
 
 if __name__ == '__main__':
