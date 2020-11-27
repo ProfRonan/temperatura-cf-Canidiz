@@ -20,7 +20,7 @@ class Test(unittest.TestCase):
             # O teste se a saída corresponde ao especificado fica aqui.
             assert mock_input.call_count == 1
             temperatura = temp_c * 9 / 5 + 32
-            mock_print.called_with(
+            mock_print.assert_called_with(
                 f'A temperatura em Fahrenheit é {temperatura}')
 
 
