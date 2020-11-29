@@ -1,5 +1,5 @@
 """Arquivo principal que será interpretado pelo interpretador."""
-# Remova esse comentário para fazer um novo commit e testar se eu posso renomear os projetos de vocês para me organizar melhor.
+
 
 def main():
     """Função principal que será rodada quando o script for passado para o interpretador."""
